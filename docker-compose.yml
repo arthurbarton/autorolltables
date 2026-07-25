@@ -1,0 +1,7 @@
+services:
+  autorolltables:
+    user: "1000:1000"
+    ports:
+      - "8088:80"
+    restart: unless-stopped
+    build: .
