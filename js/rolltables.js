@@ -145,6 +145,9 @@ function get_table(table){
     case "wilderness":
       return top.wilderness;
       break;
+    case "weather":
+      return top.weather;
+      break;
     case "subrolls":
       return top.subrolls;
       break;
